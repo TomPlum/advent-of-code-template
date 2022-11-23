@@ -5,5 +5,5 @@ dependencies {
     //Gradle Sub-Project Dependencies
     implementation(project(":implementation"))
 
-    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.12.0")
+    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.14.1")
 }
