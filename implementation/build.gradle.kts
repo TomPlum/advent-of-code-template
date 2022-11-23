@@ -28,7 +28,7 @@ subprojects {
 
     jacoco {
         toolVersion = "0.8.8"
-        reportsDir = file("$buildDir/reports")
+        reportsDirectory.set(file("$buildDir/reports"))
     }
 
     tasks.jacocoTestReport {
@@ -36,9 +36,9 @@ subprojects {
         description = "Generate Jacoco test coverage report"
 
         reports {
-            xml.isEnabled = true
-            html.isEnabled = true
-            csv.isEnabled = false
+            xml.required.set(true)
+            html.required.set(true)
+            csv.required.set(false)
         }
     }
 
