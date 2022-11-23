@@ -26,7 +26,7 @@ allprojects {
         maven("https://maven.pkg.github.com/tomplum/advent-of-code-libs") {
             credentials {
                 username = "TomPlum"
-                password = "System.getenv("GITHUB_PACKAGE_REGISTRY_KEY")"
+                password = System.getenv("GITHUB_PACKAGE_REGISTRY_KEY")
             }
         }
     }
