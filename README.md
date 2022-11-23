@@ -1,6 +1,6 @@
-# :christmas_tree: Advent of Code 2021
+# :christmas_tree: Advent of Code {YEAR}
 
-![GitHub](https://img.shields.io/badge/stars-02%2F50-yellow)
+![GitHub](https://img.shields.io/badge/stars-00%2F50-yellow)
 
 ## What is Advent of Code?
 
@@ -35,35 +35,41 @@ answers and runtimes in the console.
 The `.run` directory contains XML configuration files from IntelliJ. Included are configurations for running the unit
 tests in the `common`, `implementation` and `solutions` Gradle sub-projects as well as for each specific day.
 
+## The Days
+
+### The Most Fun
+### The Most Interesting
+### The Most Challenging
+
 ## Answer Table
 
-| Day | Part 1 Answer | Avg Time | Part 2 Answer   | Avg Time  | Documentation                            |
-|-----|---------------|----------|-----------------|-----------|------------------------------------------|
-| 01  | 1624          | 9ms      | 1653            | 4ms       | [Sonar Sweep](docs/DAY1.MD)              |
-| 02  | 1427868       | 7ms      | 1568138742      | 2ms       | [Dive!](docs/DAY2.MD)                    |
-| 03  | 4160394       | 31ms     | 4125600         | 4ms       | [Binary Diagnostic](docs/DAY3.MD)        |
-| 04  | 32844         | 75ms     | 4920            | 66ms      | [Giant Squid](docs/DAY4.MD)              |
-| 05  | 4421          | 676ms    | 18674           | 1s 496ms  | [Hydrothermal Venture](docs/DAY5.MD)     |
-| 06  | 372984        | 2ms      | 1681503251694   | 2ms       | [Lanternfish](docs/DAY6.MD)              |
-| 07  | 345035        | 23ms     | 97038163        | 59ms      | [The Treachery of Whales](docs/DAY7.MD)  |
-| 08  | 352           | 2ms      | 936117          | 14ms      | [Seven Segment Search](docs/DAY8.MD)     |
-| 09  | 560           | 147ms    | 959136          | 192ms     | [Smoke Basin](docs/DAY9.MD)              |
-| 10  | 392097        | 12ms     | 4263222782      | 7ms       | [Syntax Scoring](docs/DAY10.MD)          |
-| 11  | 1601          | 25ms     | 368             | 78ms      | [Dumbo Octopus](docs/DAY11.MD)           |
-| 12  | 4495          | 37ms     | 131254          | 593ms     | [Passage Pathing](docs/DAY12.MD)         |
-| 13  | 842           | 48ms     | BFKRCJZU        | 102ms     | [Transparent Origami](docs/DAY13.MD)     |
-| 14  | 2602          | 10ms     | 2942885922173   | 15ms      | [Extended Polymerization](docs/DAY14.MD) |
-| 15  | 739           | -        | 3040            | -         | [Chiton](docs/DAY15.MD)                  |
-| 16  | -             | -        | -               | -         | [](docs/DAY16.MD)                        |
-| 17  | 2850          | 40ms     | 1117            | 36ms      | [Trick Shot](docs/DAY17.MD)              |
-| 18  | -             | -        | -               | -         | [](docs/DAY18.MD)                        |
-| 19  | -             | -        | -               | -         | [](docs/DAY19.MD)                        |
-| 20  | 5179          | 211ms    | 16112           | 15s 810ms | [Trench Map](docs/DAY20.MD)              |
-| 21  | 551901        | 1ms      | 444356092776315 | 4s 549ms  | [Dirac Dice](docs/DAY21.MD)              |
-| 22  | -             | -        | -               | -         | [](docs/DAY22.MD)                        |
-| 23  | -             | -        | -               | -         | [](docs/DAY23.MD)                        |
-| 24  | -             | -        | -               | -         | [](docs/DAY24.MD)                        |
-| 25  | -             | -        | -               | -         | [](docs/DAY25.MD)                        |
+| Day | Part 1 Answer | Avg Time | Part 2 Answer | Avg Time | Documentation            |
+|-----|---------------|----------|---------------|----------|--------------------------|
+| 01  | 4123          | 9ms      | 1653          | 123ms    | [Day Name](docs/DAY1.MD) |
+| 02  | -             | -        | -             | -        | [](docs/DAY2.MD)         |
+| 03  | -             | -        | -             | -        | [](docs/DAY3.MD)         |
+| 04  | -             | -        | -             | -        | [](docs/DAY4.MD)         |
+| 05  | -             | -        | -             | -        | [](docs/DAY5.MD)         |
+| 06  | -             | -        | -             | -        | [](docs/DAY6.MD)         |
+| 07  | -             | -        | -             | -        | [](docs/DAY7.MD)         |
+| 08  | -             | -        | -             | -        | [](docs/DAY8.MD)         |
+| 09  | -             | -        | -             | -        | [](docs/DAY9.MD)         |
+| 10  | -             | -        | -             | -        | [](docs/DAY10.MD)        |
+| 11  | -             | -        | -             | -        | [](docs/DAY11.MD)        |
+| 12  | -             | -        | -             | -        | [](docs/DAY12.MD)        |
+| 13  | -             | -        | -             | -        | [](docs/DAY13.MD)        |
+| 14  | -             | -        | -             | -        | [](docs/DAY14.MD)        |
+| 15  | -             | -        | -             | -        | [](docs/DAY15.MD)        |
+| 16  | -             | -        | -             | -        | [](docs/DAY16.MD)        |
+| 17  | -             | -        | -             | -        | [](docs/DAY17.MD)        |
+| 18  | -             | -        | -             | -        | [](docs/DAY18.MD)        |
+| 19  | -             | -        | -             | -        | [](docs/DAY19.MD)        |
+| 20  | -             | -        | -             | -        | [](docs/DAY20.MD)        |
+| 21  | -             | -        | -             | -        | [](docs/DAY21.MD)        |
+| 22  | -             | -        | -             | -        | [](docs/DAY22.MD)        |
+| 23  | -             | -        | -             | -        | [](docs/DAY23.MD)        |
+| 24  | -             | -        | -             | -        | [](docs/DAY24.MD)        |
+| 25  | -             | -        | -             | -        | [](docs/DAY25.MD)        |
 
 Average Execution Time: 646ms \
 Total Execution Time: 15s 441ms \
