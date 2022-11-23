@@ -2,6 +2,14 @@
 
 ![GitHub](https://img.shields.io/badge/stars-00%2F50-yellow)
 
+## How to use this template
+See examples of this template being used in my previous Advent of Code projects.
+* [advent-of-code-2019](https://github.com/TomPlum/advent-of-code-2019) was the year that establish the format of the codebase.
+* [advent-of-code-2020](https://github.com/TomPlum/advent-of-code-2019) improved it a little bit.
+
+Also see [advent-of-code-libs] where a lot of common code has been extracted. It's compiled in this template
+via Gradle and is pulled from the GitHub packages registry.
+
 ## What is Advent of Code?
 
 _Excerpt from the Advent of Code [website](https://adventofcode.com/2020/about);_
