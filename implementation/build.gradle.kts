@@ -1,3 +1,5 @@
+import io.gitlab.arturbosch.detekt.Detekt
+
 apply(from = "$rootDir/gradle/testing-dependencies.gradle.kts")
 apply(from = "$rootDir/gradle/logging-dependencies.gradle.kts")
 
@@ -53,22 +55,22 @@ subprojects {
     }
 }
 
-detekt {
+tasks.withType<Detekt>().configureEach {
     reports {
         html {
-            enabled = true
-            config = files("$projectDir/src/main/resources/detekt-config.yml")
-            destination = file("$buildDir/reports/detekt/report.html")
-            baseline = file("$projectDir/src/main/resources/baseline.xml")
-            buildUponDefaultConfig = false
             debug = false
+            required.set(true)
             ignoreFailures = false
+            buildUponDefaultConfig = false
+            outputLocation.set(file("$buildDir/reports/detekt/report.html"))
+            baseline.set(file("$projectDir/src/main/resources/baseline.xml"))
+            config.setFrom(files("$projectDir/src/main/resources/detekt-config.yml"))
         }
         xml {
-            enabled = false
+            required.set(false)
         }
         txt {
-            enabled = false
+            required.set(false)
         }
     }
 }
