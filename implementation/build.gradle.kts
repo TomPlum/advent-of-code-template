@@ -9,7 +9,6 @@ plugins {
 }
 
 dependencies {
-    //Gradle Sub-Project Dependencies
     implementation(project(":implementation:common"))
     testImplementation(project(":implementation:test-support"))
 
