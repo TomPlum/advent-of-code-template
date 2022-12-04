@@ -82,3 +82,6 @@ tests in the `common`, `implementation` and `solutions` Gradle sub-projects as w
 Average Execution Time: 646ms \
 Total Execution Time: 15s 441ms \
 i7 5820K - OpenJDK 14.0.2 - Ubuntu 20.04
+
+## Advent Calendar
+A .GIF of the complete animated calendar goes here once completed.
