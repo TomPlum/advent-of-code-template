@@ -23,7 +23,8 @@ allprojects {
 
     repositories {
         mavenCentral()
-        maven("https://maven.pkg.github.com/tomplum/advent-of-code-libs") {
+        maven {
+            url = uri("https://maven.pkg.github.com/tomplum/advent-of-code-libs")
             credentials {
                 username = "TomPlum"
                 password = System.getenv("GITHUB_PACKAGE_REGISTRY_KEY")
@@ -34,7 +35,7 @@ allprojects {
     dependencies {
         implementation(kotlin("stdlib-jdk8"))
         implementation(kotlin("reflect"))
-        implementation("io.github.tomplum:advent-of-code-libs:2.3.0") {
+        implementation("io.github.tomplum:advent-of-code-libs:2.3.1") {
             exclude("org.slf4j", "slf4j-api")
         }
     }
