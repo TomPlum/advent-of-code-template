@@ -9,8 +9,7 @@ class ExampleImplementationTest {
     private val implementation = ExampleImplementation()
 
     @Test
-    fun shouldReturnTwelve() {
+    fun shouldReturnTheSolution() {
         val solution = implementation.solveSomeProblem()
-        assertThat(solution).isEqualTo(12)
-    }
+        assertThat(solution).isEqualTo(24) }
 }
