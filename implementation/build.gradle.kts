@@ -28,7 +28,7 @@ subprojects {
     }
 
     jacoco {
-        toolVersion = "0.8.8"
+        toolVersion = "0.8.11"
         reportsDirectory.set(file("$buildDir/reports"))
     }
 
