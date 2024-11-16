@@ -29,7 +29,7 @@ subprojects {
 
     jacoco {
         toolVersion = "0.8.12"
-        reportsDirectory.set(file("$buildDir/reports"))
+        reportsDirectory.set(file("${layout.buildDirectory}/reports"))
     }
 
     tasks.jacocoTestReport {
@@ -61,7 +61,7 @@ tasks.withType<Detekt>().configureEach {
             required.set(true)
             ignoreFailures = false
             buildUponDefaultConfig = false
-            outputLocation.set(file("$buildDir/reports/detekt/report.html"))
+            outputLocation.set(file("${layout.buildDirectory}/reports/detekt/report.html"))
             baseline.set(file("$projectDir/src/main/resources/baseline.xml"))
             config.setFrom(files("$projectDir/src/main/resources/detekt-config.yml"))
         }

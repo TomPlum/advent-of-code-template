@@ -1,4 +1,5 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 buildscript {
     repositories {
@@ -40,7 +41,9 @@ allprojects {
         }
     }
 
-    tasks.withType<KotlinCompile> {
-        kotlinOptions.jvmTarget = "18"
+    tasks.withType<KotlinCompile>().configureEach {
+        compilerOptions {
+            jvmTarget.set(JvmTarget.JVM_18)
+        }
     }
 }
