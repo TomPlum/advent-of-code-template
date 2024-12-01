@@ -38,6 +38,9 @@ Simply clone or download the repository into your local environment and import i
 Running [Solutions.kt](https://git.io/JII6v) will run the parts from all the completed days, reporting all the
 answers and runtimes in the console.
 
+- Don't forget to change the `rootProject.name` property in `settings.gradle.kts` to `advent-of-code-{year}`
+- Also make sure the run config XML files in the `.run` directory have the `name` attribute in the `<module name="advent-of-code-template.solutions.main" />` tag updated to match the current years name.
+
 ### Gradle Tasks
 | Task      | Description                                                                                        |
 |-----------|----------------------------------------------------------------------------------------------------|
