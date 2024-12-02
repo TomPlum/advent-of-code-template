@@ -40,6 +40,7 @@ answers and runtimes in the console.
 
 - Don't forget to change the `rootProject.name` property in `settings.gradle.kts` to `advent-of-code-{year}`
 - Also make sure the run config XML files in the `.run` directory have the `name` attribute in the `<module name="advent-of-code-template.solutions.main" />` tag updated to match the current years name.
+- Also update the `{YEAR}` in the heading anchor at the top and remove this `Getting Started` section from here and the table of contents.
 
 ### Gradle Tasks
 | Task      | Description                                                                                        |
