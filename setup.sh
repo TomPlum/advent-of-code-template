@@ -10,13 +10,13 @@ yearPlaceholder="{YEAR}"
 currentYear=$1
 
 # Update the implementation unit tests run config
-implementationRunConfigFilePath="./.run/Implementation Tests.run.xml"
-sed -i.bak "s|$yearPlaceholder|$currentYear|g" "$implementationRunConfigFilePath"
+implementationRunConfigFilePath=".run/Implementation Tests.run.xml"
+sed -i '' "s|$yearPlaceholder|$currentYear|g" "$implementationRunConfigFilePath"
 
 # Update the solutions unit tests run config
-solutionTestsRunConfigFilePath="./.run/Solution Tests.run.xml"
-sed -i.bak "s|$yearPlaceholder|$currentYear|g" "$solutionTestsRunConfigFilePath"
+solutionTestsRunConfigFilePath=".run/Solution Tests.run.xml"
+sed -i '' "s|$yearPlaceholder|$currentYear|g" "$solutionTestsRunConfigFilePath"
 
 # Update the solutions run config
-solutionsRunConfigFilePath="./.run/Run Solutions.run.xml"
-sed -i.bak "s|$yearPlaceholder|$currentYear|g" "$solutionsRunConfigFilePath"
+solutionsRunConfigFilePath=".run/Run Solutions.run.xml"
+sed -i '' "s|$yearPlaceholder|$currentYear|g" "$solutionsRunConfigFilePath"
