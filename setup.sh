@@ -5,7 +5,6 @@ if [[ $# -ne 1 ]]; then
   exit 1
 fi
 
-# Update the years in the modules paths in the IntelliJ run XML implementationRunConfigFilePaths
 yearPlaceholder="{YEAR}"
 currentYear=$1
 
@@ -20,3 +19,7 @@ sed -i '' "s|$yearPlaceholder|$currentYear|g" "$solutionTestsRunConfigFilePath"
 # Update the solutions run config
 solutionsRunConfigFilePath=".run/Run Solutions.run.xml"
 sed -i '' "s|$yearPlaceholder|$currentYear|g" "$solutionsRunConfigFilePath"
+
+# Update the root Gradle project name
+gradleSettingsFilePath="settings.gradle.kts"
+sed -i '' "s|advent-of-code-template|advent-of-code-$currentYear|g" "$gradleSettingsFilePath"
