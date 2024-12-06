@@ -23,3 +23,7 @@ sed -i '' "s|$yearPlaceholder|$currentYear|g" "$solutionsRunConfigFilePath"
 # Update the root Gradle project name
 gradleSettingsFilePath="settings.gradle.kts"
 sed -i '' "s|advent-of-code-template|advent-of-code-$currentYear|g" "$gradleSettingsFilePath"
+
+# Update the README heading year
+readMeFilePath="README.md"
+sed -i '' "s|$yearPlaceholder|$currentYear|g" "$readMeFilePath"
