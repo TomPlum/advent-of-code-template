@@ -4,5 +4,5 @@ apply(from = "$rootDir/gradle/logging-dependencies.gradle.kts")
 dependencies {
     implementation(project(":implementation"))
 
-    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.18.1")
+    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.18.2")
 }

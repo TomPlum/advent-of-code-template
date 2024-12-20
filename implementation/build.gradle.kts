@@ -12,7 +12,7 @@ dependencies {
     implementation(project(":implementation:common"))
     testImplementation(project(":implementation:test-support"))
 
-    testImplementation("io.mockk:mockk:1.13.13")
+    testImplementation("io.mockk:mockk:1.13.14")
 }
 
 subprojects {
