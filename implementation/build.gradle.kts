@@ -5,14 +5,14 @@ apply(from = "$rootDir/gradle/logging-dependencies.gradle.kts")
 
 plugins {
     jacoco
-    id("io.gitlab.arturbosch.detekt").version("1.23.7")
+    id("io.gitlab.arturbosch.detekt").version("1.23.8")
 }
 
 dependencies {
     implementation(project(":implementation:common"))
     testImplementation(project(":implementation:test-support"))
 
-    testImplementation("io.mockk:mockk:1.13.13")
+    testImplementation("io.mockk:mockk:1.14.11")
 }
 
 subprojects {
@@ -28,7 +28,7 @@ subprojects {
     }
 
     jacoco {
-        toolVersion = "0.8.12"
+        toolVersion = "0.8.15"
         reportsDirectory.set(file("${layout.buildDirectory}/reports"))
     }
 
